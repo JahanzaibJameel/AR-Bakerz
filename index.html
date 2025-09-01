@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Bakers | Luxury Artisanal Cakes & Patisserie</title>
+    <meta
+      name="description"
+      content="Premium quality artisanal cakes and pastries crafted with love in Karachi. Custom cakes for weddings, birthdays, and special occasions."
+    />
+    <meta
+      name="keywords"
+      content="bakery, cakes, Karachi, wedding cakes, birthday cakes, custom cakes, artisanal bakery"
+    />
+    <meta name="author" content="AR Bakers" />
+    <meta
+      property="og:title"
+      content="AR Bakers | Luxury Artisanal Cakes & Patisserie"
+    />
+    <meta
+      property="og:description"
+      content="Premium quality artisanal cakes and pastries crafted with love in Karachi."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arbakers.com" />
+    <meta
+      property="og:image"
+      content="https://arbakers.com/images/social-preview.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="canonical" href="https://arbakers.com" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <nav
+      class="fixed w-full bg-white/90 backdrop-blur-md shadow-md z-50 transition-all duration-300"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          <div class="flex items-center">
+            <div class="flex-shrink-0 flex items-center">
+              <span
+                class="heading-font text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent gradient-text-animate"
+                >AR Bakers</span
+              >
+            </div>
+          </div>
+          <div class="hidden lg:flex items-center space-x-8">
+            <a
+              href="#home"
+              class="nav-link text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >Home</a
+            >
+            <a
+              href="#menu"
+              class="nav-link text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >Our Menu</a
+            >
+            <a
+              href="#about"
+              class="nav-link text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >About Us</a
+            >
+            <a
+              href="#gallery"
+              class="nav-link text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >Gallery</a
+            >
+            <a
+              href="#testimonials"
+              class="nav-link text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >Testimonials</a
+            >
+            <a
+              href="#order"
+              class="btn-primary px-6 py-2 rounded-full text-sm font-medium glow"
+              >Order Now</a
+            >
+          </div>
+          <div class="lg:hidden flex items-center">
+            <button id="menu-btn" class="text-gray-700 hover:text-primary">
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a
+            href="#home"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            >Home</a
+          >
+          <a
+            href="#menu"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            >Our Menu</a
+          >
+          <a
+            href="#about"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            >About Us</a
+          >
+          <a
+            href="#gallery"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            >Gallery</a
+          >
+          <a
+            href="#testimonials"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            >Testimonials</a
+          >
+          <a
+            href="#order"
+            class="block btn-primary px-6 py-2 rounded-full text-base font-medium w-max mx-3 my-2 glow"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="marquee">
+      <div class="marquee-content">
+        <div class="marquee-tag">
+          <i class="fas fa-star"></i> Premium Quality Cakes
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-birthday-cake"></i> Custom Designs Available
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-truck"></i> Free Delivery in Karachi
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-award"></i> Award-Winning Recipes
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-heart"></i> Made with Love
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-star"></i> Premium Quality Cakes
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-birthday-cake"></i> Custom Designs Available
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-truck"></i> Free Delivery in Karachi
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-award"></i> Award-Winning Recipes
+        </div>
+        <div class="marquee-tag">
+          <i class="fas fa-heart"></i> Made with Love
+        </div>
+      </div>
+    </div>
+
+    <section
+      id="home"
+      class="hero flex items-center justify-center text-center text-white relative"
+    >
+      <div class="video-overlay"></div>
+      <video
+        autoplay
+        muted
+        loop
+        class="video-background lazy-load"
+        id="hero-video"
+      >
+        <source
+          src="https://assets.mixkit.co/videos/preview/mixkit-bakery-preparing-cakes-1958-large.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div id="particles-js"></div>
+
+      <div
+        class="hero-content px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto relative z-10"
+      >
+        <h1
+          class="heading-font text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
+        >
+          <span
+            class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent gradient-text-animate"
+            >Artisanal Cakes</span
+          ><br />
+          <span class="text-shadow-lg">Crafted with Passion</span>
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+          Premium quality cakes baked with love and the finest ingredients to
+          make your celebrations unforgettable.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="#menu"
+            class="btn-primary px-8 py-4 rounded-full text-lg font-medium glow"
+            >Explore Menu</a
+          >
+          <a
+            href="#order"
+            class="btn-outline px-8 py-4 rounded-full text-lg font-medium"
+            >Custom Order</a
+          >
+        </div>
+      </div>
+
+      <div
+        class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce"
+      >
+        <a href="#menu" class="text-white text-2xl">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 stats-grid">
+          <div class="stats-item enhanced-hover">
+            <div class="stats-number" data-count="500">0</div>
+            <p class="text-gray-600 font-medium">Happy Customers</p>
+          </div>
+          <div class="stats-item enhanced-hover">
+            <div class="stats-number" data-count="50">0</div>
+            <p class="text-gray-600 font-medium">Cake Varieties</p>
+          </div>
+          <div class="stats-item enhanced-hover">
+            <div class="stats-number" data-count="5">0</div>
+            <p class="text-gray-600 font-medium">Years Experience</p>
+          </div>
+          <div class="stats-item enhanced-hover">
+            <div class="stats-number">100%</div>
+            <p class="text-gray-600 font-medium">Quality Guarantee</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+          >
+            Why Choose AR Bakers?
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            We combine traditional recipes with modern techniques to create
+            unforgettable cake experiences
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="text-center px-6 py-8 rounded-xl hover:shadow-lg transition duration-300 tilt-effect"
+          >
+            <div class="feature-icon mx-auto float-and-spin">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3 class="heading-font text-xl font-semibold mb-3">
+              Premium Quality
+            </h3>
+            <p class="text-gray-600">
+              We use only the finest ingredients imported from trusted suppliers
+              worldwide, with no artificial preservatives.
+            </p>
+          </div>
+          <div
+            class="text-center px-6 py-8 rounded-xl hover:shadow-lg transition duration-300 tilt-effect"
+          >
+            <div class="feature-icon mx-auto float-and-spin">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3 class="heading-font text-xl font-semibold mb-3">
+              Handcrafted with Love
+            </h3>
+            <p class="text-gray-600">
+              Each cake is carefully designed and baked with passion by our
+              master bakers who have decades of combined experience.
+            </p>
+          </div>
+          <div
+            class="text-center px-6 py-8 rounded-xl hover:shadow-lg transition duration-300 tilt-effect"
+          >
+            <div class="feature-icon mx-auto float-and-spin">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="heading-font text-xl font-semibold mb-3">
+              Signature Recipes
+            </h3>
+            <p class="text-gray-600">
+              Our exclusive recipes have been perfected over years to deliver
+              unique flavors you won't find anywhere else.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+          >
+            Our Signature Creations
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Explore our most popular cakes that customers keep coming back for
+          </p>
+        </div>
+
+        <div class="flex justify-center mb-12">
+          <div class="inline-flex rounded-md shadow-sm">
+            <button
+              type="button"
+              class="category-btn px-6 py-2 text-sm font-medium rounded-l-lg border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+              data-category="all"
+            >
+              All Cakes
+            </button>
+            <button
+              type="button"
+              class="category-btn px-6 py-2 text-sm font-medium border-t border-b border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+              data-category="chocolate"
+            >
+              Chocolate
+            </button>
+            <button
+              type="button"
+              class="category-btn px-6 py-2 text-sm font-medium border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+              data-category="fruit"
+            >
+              Fruit
+            </button>
+            <button
+              type="button"
+              class="category-btn px-6 py-2 text-sm font-medium border-t border-b border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+              data-category="specialty"
+            >
+              Specialty
+            </button>
+            <button
+              type="button"
+              class="category-btn px-6 py-2 text-sm font-medium rounded-r-lg border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+              data-category="custom"
+            >
+              Custom
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 menu-items-container"
+        >
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="chocolate"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Chocolate Truffle Cake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+              <div class="badge">BESTSELLER</div>
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Chocolate Truffle Cake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Chocolate</span>
+                <span class="flavor-chip">Ganache</span>
+                <span class="flavor-chip">Rich</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Rich chocolate cake layered with chocolate ganache and topped
+                with chocolate truffles.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 2,500</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="fruit"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Red Velvet Cake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Red Velvet Cake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Velvet</span>
+                <span class="flavor-chip">Cream Cheese</span>
+                <span class="flavor-chip">Classic</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Classic red velvet cake with cream cheese frosting and
+                decorative toppings.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 2,800</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="fruit"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Strawberry Shortcake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+              <div class="badge">NEW</div>
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Strawberry Shortcake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Strawberry</span>
+                <span class="flavor-chip">Whipped Cream</span>
+                <span class="flavor-chip">Light</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Light vanilla sponge cake layered with fresh strawberries and
+                whipped cream.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 2,200</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="chocolate"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=750&q=80"
+                alt="Black Forest Cake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Black Forest Cake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Chocolate</span>
+                <span class="flavor-chip">Cherry</span>
+                <span class="flavor-chip">Classic</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Chocolate sponge cake with cherries and whipped cream, topped
+                with chocolate shavings.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 2,600</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="fruit"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=726&q=80"
+                alt="Vanilla Berry Cake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Vanilla Berry Cake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Vanilla</span>
+                <span class="flavor-chip">Mixed Berries</span>
+                <span class="flavor-chip">Buttercream</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Delicate vanilla cake filled with mixed berry compote and
+                vanilla buttercream.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 2,400</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cake-card bg-white rounded-xl overflow-hidden relative tilt-effect"
+            data-category="custom"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1292&q=80"
+                alt="Custom Photo Cake"
+                class="w-full h-full object-cover cake-image lazy-load"
+              />
+              <div class="badge">CUSTOM</div>
+            </div>
+            <div class="p-6">
+              <h3 class="heading-font text-xl font-semibold mb-2">
+                Custom Photo Cake
+              </h3>
+              <div class="flex flex-wrap mb-3">
+                <span class="flavor-chip">Personalized</span>
+                <span class="flavor-chip">Photo</span>
+                <span class="flavor-chip">Edible Image</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Personalized cake with your favorite photo printed on edible
+                icing sheet.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="price-tag text-lg">PKR 3,500+</span>
+                <button
+                  class="btn-primary px-4 py-2 rounded-full text-sm font-medium glow"
+                >
+                  Customize
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a
+            href="#order"
+            class="btn-primary px-8 py-3 rounded-full text-lg font-medium glow"
+            >View Full Menu</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+          >
+            Our Cake Gallery
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Browse through our collection of beautifully crafted cakes for
+            inspiration
+          </p>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=704&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Cake Gallery"
+                class="w-full h-96 object-cover rounded-xl lazy-load"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            class="btn-outline px-8 py-3 rounded-full text-lg font-medium flex items-center justify-center mx-auto w-max"
+          >
+            <i class="fab fa-instagram mr-2"></i> Follow Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="relative slide-in-left">
+            <div class="relative rounded-xl overflow-hidden shadow-xl">
+              <img
+                src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Baker preparing cake"
+                class="w-full h-auto rounded-xl lazy-load"
+              />
+            </div>
+            <div
+              class="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl hidden lg:block"
+            >
+              <div class="flex items-center">
+                <div class="mr-4">
+                  <div
+                    class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white text-xl"
+                  >
+                    <i class="fas fa-award"></i>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="heading-font text-xl font-bold text-gray-800">
+                    5+
+                  </h4>
+                  <p class="text-gray-600">Years Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-in-right">
+            <h2
+              class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-6"
+            >
+              Our Story
+            </h2>
+            <p class="text-gray-600 mb-4">
+              AR Bakers began as a small home bakery in Karachi with a passion
+              for creating delicious, beautiful cakes that bring joy to every
+              celebration.
+            </p>
+            <p class="text-gray-600 mb-6">
+              What started as a hobby quickly grew into a beloved local bakery
+              known for our attention to detail, quality ingredients, and
+              creative designs. Every cake we make is crafted with the same love
+              and care we'd use for our own family's celebrations.
+            </p>
+
+            <div class="mb-8">
+              <h4 class="heading-font text-xl font-semibold mb-4">
+                Our Baking Philosophy
+              </h4>
+              <div class="space-y-4">
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-white text-xs"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <p class="ml-3 text-gray-600">
+                    We use only the finest natural ingredients, sourced from
+                    trusted suppliers worldwide
+                  </p>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-white text-xs"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <p class="ml-3 text-gray-600">
+                    Traditional recipes combined with modern techniques
+                  </p>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-white text-xs"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <p class="ml-3 text-gray-600">
+                    Every cake is made to order for maximum freshness
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn-primary px-8 py-3 rounded-full text-lg font-medium glow"
+              >Visit Our Bakery</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+          >
+            What Our Customers Say
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Don't just take our word for it - hear from our satisfied customers
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="testimonial-card enhanced-hover">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "The chocolate truffle cake from AR Bakers was the highlight of my
+              daughter's birthday party! It was not only beautiful but
+              incredibly delicious. Everyone asked where we got it from. The
+              quality is unmatched in Karachi!"
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/43.jpg"
+                alt="Aisha Khan"
+                class="w-12 h-12 rounded-full mr-4 object-cover lazy-load"
+              />
+              <div>
+                <h4 class="font-semibold">Aisha Khan</h4>
+                <p class="text-gray-500 text-sm">DHA, Karachi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card enhanced-hover">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "I've ordered several cakes from AR Bakers for different
+              occasions, and they never disappoint. Their attention to detail
+              and flavor is unmatched in Karachi. The red velvet cake is to die
+              for!"
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Farhan Ahmed"
+                class="w-12 h-12 rounded-full mr-4 object-cover lazy-load"
+              />
+              <div>
+                <h4 class="font-semibold">Farhan Ahmed</h4>
+                <p class="text-gray-500 text-sm">Clifton, Karachi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card enhanced-hover">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "The custom photo cake I ordered for my parents' anniversary was
+              perfect! The image came out beautifully and the cake tasted
+              amazing. The delivery was right on time too. Will definitely order
+              again!"
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/65.jpg"
+                alt="Sana Javed"
+                class="w-12 h-12 rounded-full mr-4 object-cover lazy-load"
+              />
+              <div>
+                <h4 class="font-semibold">Sana Javed</h4>
+                <p class="text-gray-500 text-sm">Gulshan, Karachi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="order"
+      class="py-16 bg-gradient-to-r from-primary to-secondary text-white"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="scale-in text-black">
+            <h2 class="heading-font text-3xl md:text-4xl font-bold mb-6">
+              Ready to Order Your Perfect Cake?
+            </h2>
+            <div class="w-24 h-1 bg-white mb-6"></div>
+            <p class="mb-8 opacity-90">
+              Place your order today and experience the AR Bakers difference. We
+              offer convenient delivery options across Karachi or you can pick
+              up from our bakery.
+            </p>
+
+            <div
+              class="bg-white bg-opacity-10 p-8 rounded-xl mb-8 backdrop-blur-sm"
+            >
+              <h4 class="heading-font text-xl font-semibold mb-6">
+                How to Order:
+              </h4>
+              <ol class="order-steps">
+                <li>
+                  <h5 class="font-semibold text-lg mb-1">Select Your Cake</h5>
+                  <p class="opacity-90">
+                    Choose from our menu or customize your own creation
+                  </p>
+                </li>
+                <li>
+                  <h5 class="font-semibold text-lg mb-1">Provide Details</h5>
+                  <p class="opacity-90">
+                    Tell us about your event, preferred flavors, and design
+                  </p>
+                </li>
+                <li>
+                  <h5 class="font-semibold text-lg mb-1">Confirm & Pay</h5>
+                  <p class="opacity-90">
+                    Secure checkout with multiple payment options
+                  </p>
+                </li>
+                <li>
+                  <h5 class="font-semibold text-lg mb-1">Enjoy Your Cake</h5>
+                  <p class="opacity-90">
+                    Delivery or pickup at your convenience
+                  </p>
+                </li>
+              </ol>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="tel:+923001234567"
+                class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-full text-lg font-medium transition duration-300 flex items-center justify-center"
+              >
+                <i class="fas fa-phone-alt mr-2"></i> Call Now
+              </a>
+              <a
+                href="https://wa.me/923001234567"
+                class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full text-lg font-medium transition duration-300 flex items-center justify-center"
+              >
+                <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+              </a>
+              <a
+                href="#contact"
+                class="btn-outline border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-full text-lg font-medium transition duration-300 flex items-center justify-center"
+              >
+                <i class="fas fa-store mr-2"></i> Visit Us
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-xl p-8 shadow-2xl scale-in order-form">
+            <h3
+              class="heading-font text-2xl font-bold text-gray-800 mb-6 text-center"
+            >
+              Place Your Order
+            </h3>
+            <form id="order-form" class="space-y-4">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                />
+              </div>
+              <div>
+                <label
+                  for="phone"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                />
+              </div>
+              <div>
+                <label
+                  for="cake-type"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Cake Type</label
+                >
+                <select
+                  id="cake-type"
+                  name="cake-type"
+                  required
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                >
+                  <option value="">Select a cake</option>
+                  <option value="Chocolate Truffle">
+                    Chocolate Truffle (PKR 2,500)
+                  </option>
+                  <option value="Red Velvet">Red Velvet (PKR 2,800)</option>
+                  <option value="Strawberry Shortcake">
+                    Strawberry Shortcake (PKR 2,200)
+                  </option>
+                  <option value="Black Forest">Black Forest (PKR 2,600)</option>
+                  <option value="Vanilla Berry">
+                    Vanilla Berry (PKR 2,400)
+                  </option>
+                  <option value="Custom Photo Cake">
+                    Custom Photo Cake (PKR 3,500+)
+                  </option>
+                  <option value="Other">Other (Please specify in notes)</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  for="delivery-date"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Delivery Date</label
+                >
+                <input
+                  type="date"
+                  id="delivery-date"
+                  name="delivery-date"
+                  required
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                />
+              </div>
+              <div>
+                <label
+                  for="delivery-address"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Delivery Address</label
+                >
+                <textarea
+                  id="delivery-address"
+                  name="delivery-address"
+                  rows="2"
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                ></textarea>
+              </div>
+              <div>
+                <label
+                  for="special-requests"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Special Requests</label
+                >
+                <textarea
+                  id="special-requests"
+                  name="special-requests"
+                  rows="3"
+                  class="w-full px-4 py-3 rounded-lg form-input focus:ring-2 focus:ring-primary focus:border-transparent"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn-primary w-full py-3 rounded-full text-lg font-medium glow"
+              >
+                Submit Order
+              </button>
+            </form>
+            <div
+              id="form-success"
+              class="hidden mt-4 p-4 bg-green-100 text-green-800 rounded-lg"
+            >
+              Thank you for your order! We'll contact you shortly to confirm
+              details.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white contact-section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="section-title heading-font text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+          >
+            Visit Our Bakery
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            We'd love to hear from you! Visit our bakery or get in touch
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 contact-info-grid">
+          <div class="bg-gray-50 p-8 rounded-xl enhanced-hover">
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white text-xl mr-4"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3 class="heading-font text-xl font-semibold">Our Location</h3>
+            </div>
+            <p class="text-gray-600">
+              Shop #12, ABC Commercial Area,<br />Main Tariq Road, Karachi
+            </p>
+            <a
+              href="https://maps.google.com"
+              target="_blank"
+              class="inline-block mt-4 text-primary font-medium"
+              >Get Directions →</a
+            >
+          </div>
+
+          <div class="bg-gray-50 p-8 rounded-xl enhanced-hover">
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white text-xl mr-4"
+              >
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <h3 class="heading-font text-xl font-semibold">Contact Us</h3>
+            </div>
+            <p class="text-gray-600 mb-2">
+              <span class="font-medium">Phone:</span> +92 300 1234567
+            </p>
+            <p class="text-gray-600">
+              <span class="font-medium">Email:</span> orders@arbakers.com
+            </p>
+            <div class="flex space-x-4 mt-4">
+              <a
+                href="https://wa.me/923001234567"
+                class="w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition duration-300"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://facebook.com"
+                class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition duration-300"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://instagram.com"
+                class="w-10 h-10 rounded-full bg-pink-600 text-white flex items-center justify-center hover:bg-pink-700 transition duration-300"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 p-8 rounded-xl enhanced-hover">
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white text-xl mr-4"
+              >
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3 class="heading-font text-xl font-semibold">Opening Hours</h3>
+            </div>
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <span class="text-gray-600">Monday - Friday</span>
+                <span class="font-medium">9:00 AM - 9:00 PM</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">Saturday</span>
+                <span class="font-medium">10:00 AM - 10:00 PM</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">Sunday</span>
+                <span class="font-medium">11:00 AM - 8:00 PM</span>
+              </div>
+            </div>
+            <p class="mt-4 text-sm text-gray-500">*Closed on public holidays</p>
+          </div>
+        </div>
+
+        <div class="mt-12 h-96 rounded-xl overflow-hidden shadow-xl">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.036923810473!2d67.0288593150029!3d24.86186898405167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e5b948a1c2b%3A0x6d5a6b3a3a3a3a3a!2sTariq%20Road%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="bg-white p-8 md:p-12 rounded-xl shadow-md scale-in">
+          <h2 class="heading-font text-3xl font-bold text-gray-800 mb-4">
+            Join Our Sweet Community
+          </h2>
+          <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+            Subscribe to our newsletter for exclusive offers, new flavors, and
+            baking tips delivered to your inbox.
+          </p>
+
+          <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            <input
+              type="email"
+              placeholder="Your email address"
+              class="flex-grow px-6 py-3 form-input rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+            <button
+              type="submit"
+              class="btn-primary px-8 py-3 rounded-full font-medium glow"
+            >
+              Subscribe
+            </button>
+          </form>
+
+          <p class="text-sm text-gray-500 mt-4">
+            We respect your privacy. Unsubscribe at any time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="heading-font text-xl font-semibold mb-6">AR Bakers</h3>
+            <p class="text-gray-400 mb-6">
+              Premium quality cakes baked with love for your special occasions.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-primary transition duration-300"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-primary transition duration-300"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-primary transition duration-300"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-primary transition duration-300"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="heading-font text-lg font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#home"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#menu"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Our Menu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#order"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Order Now</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="heading-font text-lg font-semibold mb-4">Information</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Delivery Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >FAQs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="footer-link text-gray-400 hover:text-white transition duration-300"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="heading-font text-lg font-semibold mb-4">Contact Us</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
+                <span>Tariq Road, Karachi</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-phone-alt mr-3 text-primary"></i>
+                <span>+92 300 1234567</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-envelope mr-3 text-primary"></i>
+                <span>orders@arbakers.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2023 AR Bakers. All rights reserved.</p>
+          <p class="text-sm mt-2">Designed with ❤️ for cake lovers</p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/923001234567"
+      class="floating-btn fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl hover:bg-green-600 z-50 animate-pulse"
+    >
+      <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <a
+      href="#home"
+      id="back-to-top"
+      class="floating-btn fixed bottom-24 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-xl hover:bg-primary-dark z-50 hidden"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Bakery",
+        "name": "AR Bakers",
+        "description": "Premium quality artisanal cakes and pastries crafted with love in Karachi.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop #12, ABC Commercial Area",
+          "addressLocality": "Tariq Road",
+          "addressRegion": "Karachi",
+          "postalCode": "",
+          "addressCountry": "PK"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "24.861869",
+          "longitude": "67.028859"
+        },
+        "telephone": "+923001234567",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "21:00"
+        },
+        "sameAs": [
+          "https://www.facebook.com/arbakers",
+          "https://www.instagram.com/arbakers",
+          "https://wa.me/923001234567"
+        ]
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
